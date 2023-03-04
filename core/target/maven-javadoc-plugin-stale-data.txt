@@ -1,0 +1,47 @@
+@options
+@packages
+-encoding
+'UTF-8'
+-protected
+-source
+'19'
+-sourcepath
+'C:/Users/Administrateur/Documents/NetBeansProjects/core/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2023. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'C:/Users/Administrateur/Documents/NetBeansProjects/core/target/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'core 1.0 API'
+-use
+-version
+-windowtitle
+'core 1.0 API'
+com.directmedia.onlinestore.core.entity
+com.directmedia.onlinestore.core
+C:\Users\Administrateur\Documents\NetBeansProjects\core\src\main\java = 1677860181355
+C:\Users\Administrateur\Documents\NetBeansProjects\core\target\apidocs\allclasses-index.html = 1677877685705
+C:\Users\Administrateur\Documents\NetBeansProjects\core\target\apidocs\allpackages-index.html = 1677877685707
+C:\Users\Administrateur\Documents\NetBeansProjects\core\target\apidocs\copy.svg = 1677877685731
+C:\Users\Administrateur\Documents\NetBeansProjects\core\target\apidocs\element-list = 1677877685652
+C:\Users\Administrateur\Documents\NetBeansProjects\core\target\apidocs\help-doc.html = 1677877685727
+C:\Users\Administrateur\Documents\NetBeansProjects\core\target\apidocs\index-all.html = 1677877685720
+C:\Users\Administrateur\Documents\NetBeansProjects\core\target\apidocs\index.html = 1677877685694
+C:\Users\Administrateur\Documents\NetBeansProjects\core\target\apidocs\jquery-ui.overrides.css = 1677877685741
+C:\Users\Administrateur\Documents\NetBeansProjects\core\target\apidocs\member-search-index.js = 1677877685711
+C:\Users\Administrateur\Documents\NetBeansProjects\core\target\apidocs\module-search-index.js = 1677877685708
+C:\Users\Administrateur\Documents\NetBeansProjects\core\target\apidocs\overview-summary.html = 1677877685724
+C:\Users\Administrateur\Documents\NetBeansProjects\core\target\apidocs\overview-tree.html = 1677877685691
+C:\Users\Administrateur\Documents\NetBeansProjects\core\target\apidocs\package-search-index.js = 1677877685709
+C:\Users\Administrateur\Documents\NetBeansProjects\core\target\apidocs\script.js = 1677877685730
+C:\Users\Administrateur\Documents\NetBeansProjects\core\target\apidocs\search-page.js = 1677877685734
+C:\Users\Administrateur\Documents\NetBeansProjects\core\target\apidocs\search.html = 1677877685722
+C:\Users\Administrateur\Documents\NetBeansProjects\core\target\apidocs\search.js = 1677877685733
+C:\Users\Administrateur\Documents\NetBeansProjects\core\target\apidocs\stylesheet.css = 1677877685729
+C:\Users\Administrateur\Documents\NetBeansProjects\core\target\apidocs\tag-search-index.js = 1677877685712
+C:\Users\Administrateur\Documents\NetBeansProjects\core\target\apidocs\type-search-index.js = 1677877685710

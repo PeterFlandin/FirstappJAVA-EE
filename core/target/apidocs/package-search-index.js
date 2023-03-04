@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"com.directmedia.onlinestore.core"},{"l":"com.directmedia.onlinestore.core.entity"}];updateSearchResults();

@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"com.directmedia.onlinestore.core.entity","l":"Artist"},{"p":"com.directmedia.onlinestore.core.entity","l":"Catalogue"},{"p":"com.directmedia.onlinestore.core","l":"Startup"},{"p":"com.directmedia.onlinestore.core.entity","l":"Work"}];updateSearchResults();
