@@ -16,10 +16,10 @@
         
         <% String identifiant = (String)session.getAttribute("identifiant");
         if(identifiant!=null){ %>
-        Bonjour <%=identifiant%> (<a href="logout">Deconnexion</a>) <BR/>
+        Bonjour ${sessionScope.identifiant} (<a href="logout">Deconnexion</a>) <BR/>
            <% } %>
                  <a href="add-work-form.html">Ajouter une oeuvre au catalogue</a>
-                 <a href="catalogue">Catalogue des oeuvres</a>
+                 <a href="catalogue.jsp">Catalogue des oeuvres</a>
                  <a href="login.html">Identification administrateur</a>
     </body>
 </html>
