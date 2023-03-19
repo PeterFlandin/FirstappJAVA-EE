@@ -7,13 +7,13 @@ package com.directmedia.onlinestore.frontoffice.controller;
 import com.directmedia.onlinestore.core.entity.Artist;
 import com.directmedia.onlinestore.core.entity.Catalogue;
 import com.directmedia.onlinestore.core.entity.Work;
+import jakarta.servlet.RequestDispatcher;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import java.io.IOException;
-import java.io.PrintWriter;
 
 @WebServlet(name = "CatalogueServlet", urlPatterns = {"/catalogue"})
 public class CatalogueServlet extends HttpServlet {
@@ -21,7 +21,6 @@ public class CatalogueServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-       PrintWriter out = response.getWriter();
        
        if(Catalogue.listOfWorks.isEmpty()){
          
@@ -48,13 +47,9 @@ public class CatalogueServlet extends HttpServlet {
        Catalogue.listOfWorks.add(JhonWick);
        Catalogue.listOfWorks.add(AngryBirds);
        }
-       out.print("<HTML> <Body> <h1>Oeuvres du catalogue</h1> <BR/> <BR/> ");
         
-           for (Work listOfWorks : Catalogue.listOfWorks ){
-           out.print(listOfWorks.getTitle()+"(" + listOfWorks.getRelease()+ ")<BR/> <BR/> ");
-        
-       }
-           out.print("</Body> </HTML>");
-      
+       request.setAttribute("listDesOeuvre", Catalogue.listOfWorks);
+       RequestDispatcher disp = request.getRequestDispatcher("/catalogue.jsp"); 
+       disp.forward(request, response);
     }
 }
