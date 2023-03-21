@@ -25,6 +25,6 @@ public class HomeServlet extends HttpServlet {
             throws ServletException, IOException {
         PrintWriter out = response.getWriter();
         out.print("<HTML> <Body> <h1> OnlieStore votre nouveau commerce en ligne </h1> ");
-        out.print("<a href=\"catalogue\">Les oeuvres</a></Body> </HTML>");
+        out.print("<a href=\"catalogue.jsp\">Les oeuvres</a></Body> </HTML>");
     }
 }
